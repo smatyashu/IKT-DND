@@ -1,0 +1,69 @@
+body {
+    background: url(images/bg3.jpg);
+    background-position: center;
+    background-size: auto;
+    background-color: #6A687E;
+    color: #FAF7FE;
+}
+
+.container{
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.col-md{
+    padding-top: 1rem;
+    border: 1px solid #FAF7FE;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    max-width: 70%;
+    border-radius: 5px;
+    border: 1px solid #FAF7FE;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    color: #FAF7FE;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+a:hover {
+    background-color: #FAF7FE;
+    color: #000;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+}
+
+#mypopover {
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.profilkep {
+    margin-right: auto;
+    float: left;
+    width: 30%;
+    height: 120%;
+    margin: 1.5rem;
+}
+
+.profilkeps {
+    float: left;
+    width: 30%;
+    margin: 1.5rem;
+}
+
+.pfinfo{
+    margin-top: 3%;
+}
+
+.transparent {
+    opacity: 0;
+}
